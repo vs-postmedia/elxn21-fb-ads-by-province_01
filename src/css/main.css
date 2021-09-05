@@ -1,20 +1,36 @@
 /* FONTS */
-.benton-reg {
-	font-family: BentonSansCond-Regular;
-}
-.benton-ital {
-	font-family: BentonSansCond-RegItalic;
+#app .benton-ital {
+	font-family: BentonSansCond-BoldItalic;
 }
 
+
 /* COLOURS */
-.blue-01 {
-	background-color: var(--blue01);
+.liberal {
+	background-color: #d71920;
 	border-radius: 2px;
 	color: #FFF;
 	padding: 1px 2px;
 }
-.green-01 {
-	background-color: var(--green01);
+.green {
+	background-color: #3D9B35;
+	border-radius: 2px;
+	color: #FFF;
+	padding: 1px 2px;
+}
+.cpc {
+	background-color: #236492;
+	border-radius: 2px;
+	color: #FFF;
+	padding: 1px 2px;
+}
+.ndp {
+	background-color: #F58220;
+	border-radius: 2px;
+	color: #FFF;
+	padding: 1px 2px;
+}
+.bloc {
+	background-color: #42b7bf;
 	border-radius: 2px;
 	color: #FFF;
 	padding: 1px 2px;
@@ -24,7 +40,7 @@
 /* APP & CHART WRAPPER */
 #app {
 	margin: 0 auto;
-	max-width: 750px;
+	max-width: 550px;
 }
 .wrapper {
 	/*display: flex;*/
@@ -47,23 +63,25 @@
 	top: 0;
 }
 .scrollyteller .step-list {
+	pointer-events: none;
 	position: relative;
 }
 .scrollyteller .step {
-	margin: 75% auto;
+	margin: 100vh auto;
 	max-width: 400px;
 	text-align: center;
 }
 .scrollyteller .step:first-of-type {
-	margin-top: -25%;
+	margin-top: -45%;
 }
 .scrollyteller .step:last-of-type {
 	margin-bottom: 0;
-	padding-bottom: 50%;
+	padding-bottom: 100vh;
 }
 
 .scrollyteller .step > p {
 	background: rgba(255,255,255,0.8);
+	padding: 5px;
 }
 
 
